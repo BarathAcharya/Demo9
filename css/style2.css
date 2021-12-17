@@ -87,12 +87,18 @@ svg.wave {
   bottom: 0px;
   
 }
+form{
+  border:1px solid black;
+  padding:15px;
+  box-shadow: 5px 10px red;
+  margin-bottom:45px;
+}
 .middle {
   display: flex;
   justify-content: start;
   align-items: center;
   height: 80vh;
-  width: 70%;
+  width: 100%;
 }
 .middle h1 {
   font-size: 70px;

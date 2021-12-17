@@ -1,0 +1,140 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Montserrat&display=swap');  
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#header {
+   background-image: linear-gradient(rgba(255, 251, 251, 0.7), rgba(252, 249, 249, 0.7)); 
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+:root {
+  --main-color: red;
+}
+.act,
+.navbar ul li a:hover {
+  color: var(--main-color) !important;
+  border-bottom: 1px solid var(--main-color);
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-nav .nav-link {
+
+color:#000000 !important;
+
+}
+.navbar-brand{
+  font-size:25px;
+}
+.navbar-toggler{
+  border-color:red;
+  float:right;
+  overflow-x: hidden;
+}
+.navbar-toggler-icon{
+  border-color:red;
+}
+.navbar-toggler-icon {
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.theme-text {
+  color: red !important;
+}
+
+#services{
+  
+  background-color:#f8f7f5;
+  padding:50px;
+}
+#contact{
+  
+  background-color:#ffffff;
+ 
+}
+h1{
+  color:#000000;
+}
+
+h4::after{
+  content: '';
+ border-bottom: 4px solid #fff;
+ width: 60px;
+ display: block;
+ text-align: center;
+ 
+}
+
+.ft{
+  
+  background-color:#e6b30e;
+}
+.ftt{
+  background-color:red;
+  color:#fff;
+}
+
+svg.wave {
+  position: absolute;
+  bottom: 0px;
+  
+}
+.middle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 80vh;
+  width: 70%;
+}
+.middle h1 {
+  font-size: 70px;
+}
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition:all 1.5s ease;
+}
+.inner:hover img{
+  transform:scaleX(1.5);
+
+}
+#abt{
+  margin-top:70px;
+  margin-bottom:80px;
+}
+#tech{
+  margin-top:70px;
+  margin-bottom:80px;
+}
+#contact{
+  padding:60px;
+}
+#callback{
+  padding:60px;
+  background-color:#f8f7f5;
+}
+.btn-primary{
+  color:white;
+  background-color: red;
+  border-color: #fff;
+}
+h1{
+  color:#191919;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.card-title{
+  color:red;
+  font-family: 'Montserrat', sans-serif;
+}
+.fas{
+color: red;}
